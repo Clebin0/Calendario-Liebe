@@ -1,11 +1,11 @@
-
 import { defineConfig, loadEnv } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
+import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => {
-  const env = loadEnv(mode, process.cwd(), '');
-  
+  const env = loadEnv(mode, process.cwd());
+
   return {
     server: {
       host: "::",
@@ -13,7 +13,7 @@ export default defineConfig(({ mode }) => {
     },
     plugins: [
       react(),
-      mode === 'development' && componentTagger(),
+      mode === "development" && componentTagger(), // só ativa no dev
     ].filter(Boolean),
     resolve: {
       alias: {

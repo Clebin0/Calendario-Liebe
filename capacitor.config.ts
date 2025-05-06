@@ -1,11 +1,11 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.lovableproject.dateminglemagic',
+  appId: 'http://172.24.176.1:5500/',
   appName: 'liebe',
   webDir: 'dist',
   server: {
-    url: 'https://hszrxypoyqqzdkunvmjo.lovableproject.com?forceHideBadge=true',
+    url: 'http://172.24.176.1:5500/',
     cleartext: true
   },
   android: {

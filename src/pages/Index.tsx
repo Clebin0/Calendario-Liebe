@@ -45,7 +45,7 @@ const Index = () => {
         style={{
           backgroundImage: `
             linear-gradient(rgba(253, 252, 251, 0.9), rgba(253, 225, 211, 0.9), rgba(255, 222, 226, 0.9)),
-            url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=2000&q=80')
+            url('https://cdn-images.dzcdn.net/images/cover/2086f97d00c0926e9455b7fd858fd323/0x1900-000000-80-0-0.jpg')
           `,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
