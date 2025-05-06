@@ -1,7 +1,7 @@
 {
+  "type": "module",
   "name": "calendario-liebe",
   "version": "1.0.0",
-  "type": "module",
   "description": "Calendário compartilhado com login e cadastro.",
   "main": "index.js",
   "homepage": "https://clebin0.github.io/Calendario-Liebe",
